@@ -1,0 +1,105 @@
+/* Colors and font */
+body {
+	background-color: #EAF5F4;
+	background: orange
+	color: #EB8F8F;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+}
+h1, h2, h3 {
+	font-family: 'Parisienne', cursive;
+}
+h1 {
+	text-align: center;
+	color :#101218;
+	font-weight: 900;
+	letter-spacing: 8px;
+	font-size: 85px;
+}
+h2 {
+	color :#101218;
+	font-size: 50px;
+	font-weight: 700;
+}
+p {
+	color :#FE4440;
+}	
+
+a {
+	text-decoration: none;
+	color : red;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+/* Custom design with class */
+.container {
+	margin:30px auto;
+	width: 800px}
+
+@media (max-width: 760px){
+	.container {
+		width: 600px
+	}
+	h1{
+		font-size: 65px;
+		letter-spacing: 6px;
+	}
+}
+
+@media (max-width: 500px){
+	.container {
+		width: 400px
+	}
+	h1{
+		font-size: 46px;
+		letter-spacing: 4px;
+	}
+}
+
+.img-circle {border-radius: 50%}
+
+.card-white {
+	padding:40px;
+	background-color: white;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin:20px 0px;
+	text-align: center}
+
+.btn-blue {
+	font-family: 'Parisienne', cursive;
+	background-color: #101218;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+	font-size: 22px;}
+
+.btn-blue:hover{
+	background-color:rgb(230,230,230);
+	color:#101218}
+
+.list-inline{
+	list-style: none;
+	padding: 0px;}
+
+.list-inline li {
+	display: inline;
+	padding: 10px} 
+
+.list-inline i {
+	font-size: 50px;
+	color:rgb(230,230,230);} 
+
+.list-inline i:hover {
+	color:#EB8F8F} 
+
+#introduction p{
+	 margin-bottom: 40px
+	}
+
+
+/* As you can notice, I had to repet class for each instruction, because 
